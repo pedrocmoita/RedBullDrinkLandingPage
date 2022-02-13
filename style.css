@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@300&family=Rowdies&display=swap');
+
 :root{
     --clr-red: rgba(218, 30, 30, 0.95);
     --main-font: 'Rowdies', cursive;
@@ -14,7 +15,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: white;
 }
   
 header {
@@ -33,7 +33,7 @@ section{
 
 footer{
     background:radial-gradient(rgb(45, 45, 45), rgb(35, 35, 35), rgb(25, 25, 25), rgb(15, 15, 15));
-    height: 5rem;
+    height: 6rem;
     width: 100%;
     border-top: 3px solid rgba(218, 30, 30, 0.75);
     color: white;
@@ -46,6 +46,23 @@ footer small{
     align-items: center;
     font-family: var(--second-font);
     letter-spacing: .25rem;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 1rem;
+    letter-spacing: 20px;
+}
+
+footer a:hover{
+    opacity: 0.5;
 }
 
 /*  #GENEREAL#  */
@@ -154,29 +171,15 @@ footer small{
     margin-top: 67%;
 }
 
-.crenberry{
-    top: 20%;
-    left: 5%;
-}
+.crenberry{ top: 20%; left: 5%;}
 
-.grape{
-    top: 30%;
-    left: 65%;
-}
+.grape{ top: 30%; left: 65%;}
 
-.melon{
-    top: 40%;
-    left: 22%;
-}
+.melon{ top: 40%; left: 22%;}
 
-.pineapple{
-    top: 65%;
-    left: 70%;
-}
+.pineapple{ top: 65%; left: 70%;}
 
-.blueberry{
-    top: 85%;
-}
+.blueberry{ top: 85%;}
 
 .section-2{
     margin-top: 15rem;
